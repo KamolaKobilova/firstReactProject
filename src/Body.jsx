@@ -1,6 +1,6 @@
 import React from "react";
 import { Component } from "react";
-import './Body.css'
+import './css/Body.css'
 
 
 class Body extends Component{

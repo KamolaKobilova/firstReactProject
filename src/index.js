@@ -9,8 +9,8 @@ import Body from './Body'
 ReactDOM.render(
  <main>
     <Header/>
-   <FunctionaComponents/>
-   <Galler/>
+    <FunctionaComponents/>
+    <Galler/>
    <Body/>
 
  </main>,

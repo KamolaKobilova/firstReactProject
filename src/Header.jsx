@@ -4,7 +4,7 @@ import './style.css'
 
 class Header extends Component {
     render(){
-        // const myName = "Kamola"   
+       
         return(
             <ul >
                 <li>Photos</li>

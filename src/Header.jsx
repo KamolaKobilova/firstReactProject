@@ -15,11 +15,11 @@ class Header extends Component {
                 <li><p>Musics</p></li>
                 <li><p>Sound effect</p></li>
             </ul>
-            <ul className="right">
-                <li className="item">Explore</li>
-                <li className="item">Log in</li>
-                <li className="item">Join</li>
-                <li className="item"><button>upload</button></li>
+            <ul className="right me-5">
+                <button className="item mt-100">Explore</button>
+                <button className="item">Log in</button>
+                <button className="item">Join</button>
+                <button className="item">upload</button>
             </ul>
             </div>
             

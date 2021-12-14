@@ -1,3 +1,6 @@
+body {
+  background-color: white;
+}
 ul {
   display: flex;
   flex-direction: row;
@@ -20,19 +23,20 @@ li {
   border-color: white;
 }
 
-.container  {
-  /* width: 100%; */
+.containerss  {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+ 
 
 }
-.container img{
-  width: 260px;
+.containerss img{
+  width: 290px;
   height: 250px;
 }
-.container img {
+.containerss img {
   margin: 7px;
 }
 .con-item p {
@@ -43,4 +47,46 @@ li {
 }
 .con-item p:hover {
   display: block;
+}
+.div {
+  margin-top: 100px;
+  
+
+
+}
+.picture {
+  margin-top: 150px;
+}
+.containers {
+  background: url(https://cdn.pixabay.com/photo/2019/09/15/23/31/vacation-4479586__340.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  margin-top: -50px;
+  text-align: center;
+}
+.letter{
+   position: relative; 
+   top: 100px;
+   color: white;
+}
+.input {
+  width: 800px;
+  height: 60px;
+  border-radius: 10px;
+  border-color: white;
+}
+.discover button {
+width: 200px;
+height: 35px;
+border-radius: 10px;
+color: white;
+background-color: rgb(14, 180, 14);
+border-color: rgb(14, 180, 14);
+}
+
+.discover {
+  text-align: center;
+  margin-top: 50px;
 }

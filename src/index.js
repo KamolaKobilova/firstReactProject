@@ -6,6 +6,7 @@ import FunctionaComponents from "./FunctionalComponents";
 
 // import Gallery from "./Gallery"
 import Image from "./Image";
+import Discover from './Discover'
 
 
 ReactDOM.render(
@@ -16,7 +17,7 @@ ReactDOM.render(
     {/* <Gallery /> */}
   
     <Image/>
-
+    <Discover/>
   </main>,
 
   document.getElementById("root")
